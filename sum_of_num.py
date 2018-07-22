@@ -1,7 +1,9 @@
 # sum_of_num.py
 def main():
     pass
-    n=list(map(int,input().split()))
-    print(sum(n))
+    n=input()
+    l=list(n)
+    print(sum(map(int,l)))
+
 if __name__ == '__main__':
     main()
